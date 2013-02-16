@@ -12,8 +12,8 @@ class theme{
         echo '<p>'.$message.'</p>';
         echo '</div>';
     }
-    function postitposition($message,$top,$left){
-        echo '<div class="stickyNote" style="top: '.$top.'px; left: '.$left.'px; position: absolute;">';
+    function postitcustom($message,$top,$left,$width){
+        echo '<div class="stickyNote" style="top: '.$top.'px; left: '.$left.'px; position: absolute; width:'.$width.'px">';
         echo '<p>'.$message.'</p>';
         echo '</div>';
     }

@@ -20,7 +20,7 @@ $theme->header();
 if ($error) $theme->postit('<h2>Wrong login</h2>');
 $theme->postit('<h2>Login<h2>
                 <form action="index.php" method="post">
-                <h2><input name="login" placeholder="Username"/></h2>
+                <p><input name="login" placeholder="Username"/></p>
                 <p><input name="password" placeholder="Password" type="password"/></p>
                 <p><input type="submit" value="Login" /></p>
                 </form>
