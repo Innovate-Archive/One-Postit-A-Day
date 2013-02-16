@@ -1,0 +1,71 @@
+ 
+body {
+	background-image: url(Bkg-pic.jpg); background-repeat: repeat;
+	color: black;
+}
+
+#top {
+	background-color: #272727;
+	color: white;
+	padding: 10px;
+	border-bottom: 1px solid white;
+}
+
+#top a {
+	color: white;
+	text-decoration: none;
+}
+
+#container {
+	width: 960px;
+	margin: 100px auto;
+}
+
+.stickyNote {
+	margin: auto;
+	width: 300px;	
+	background: blue; /* Fallback */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EBEB00), to(#C5C500));
+	background: -moz-linear-gradient(100% 100% 90deg, #C5C500, #EBEB00);
+	padding: 20px 20px 20px 20px;
+		-webkit-box-shadow: 0px 10px 30px #000;
+		-moz-box-shadow: 0px 10px 30px #000;
+}
+
+
+.stickyNote h1{
+	font-size: 100px;
+	font-family: GoodDogRegular, Helvetica, sans-serif;
+}
+.stickyNote h2{
+    font-size: 50px;
+	font-family: GoodDogRegular, Helvetica, sans-serif;
+}
+
+.stickyNote p {
+	font-family: GoodDogRegular, Helvetica, sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+	margin: 10px 0 10px 0;
+	width: 280px;
+}
+input{
+    font-family: GoodDogRegular, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+textarea{
+    font-family: GoodDogRegular, Helvetica, sans-serif;
+    font-size: 30px;
+	line-height: 35px;
+	margin: 10px 0 10px 0;
+	width: 280px;
+}
+
+@font-face {
+	font-family: 'GoodDogRegular';
+	src: url('GoodDog-webfont.eot');
+	src: local('‚ò∫'), url('GoodDog-webfont.woff') format('woff'), url('GoodDog-webfont.ttf') format('truetype'), url('GoodDog-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
