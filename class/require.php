@@ -9,7 +9,7 @@ defined('OnePostitADay') or die();
     if ($class_name=='theme'){
         require_once(ROOT.'/theme/'.THEME.'/class.php');
     }else{
-        require_once(ROOT.'/class//'.$class_name.'.php');
+        require_once(ROOT.'/class/'.$class_name.'.php');
     }
     
  }

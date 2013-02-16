@@ -7,6 +7,7 @@ class posts{
     }
     
     function add($message){
+        $message=htmlspecialchars($message, ENT_QUOTES);
         $time=time();
         $this->system->db->exec("INSERT INTO 'posts' ( 'id' , 'message' , 'time' ) 
                             VALUES ( NULL , '".$message."' , ".$time." )");
